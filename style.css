@@ -435,3 +435,17 @@ img {
 .skill i{
     font-size: 5rem;
 }
+
+
+/* contacts */
+.contact-container{
+    margin-right: .625em;
+    padding: 3em;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
