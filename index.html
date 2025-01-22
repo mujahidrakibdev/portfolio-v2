@@ -292,6 +292,9 @@
         <section class="contact">
             <div class="contact-container">
                 <div class="contact-info">
+                    <h1 class="contact-info-title">
+                        Contact Me
+                    </h1>
                     <div class="address">
                         <i class="fa-solid fa-location-dot"></i>
                         <a href="#" class="location">Dhaka, <span class="flag-green">Bang</span><span class="flag-red">la</span><span class="flag-green">desh</span></a>
@@ -338,18 +341,24 @@
 
                 <div class="contact-form">
                     <h3 class="form-title">Let’s Colaborate</h3>
-                    <form>
-                        <input type="text"><br>
-                        <input type="email"><br>
-                        <input type="text"><br>
-                        <textarea name="message" id="text-area" rows="4" cols="50"></textarea>
-
+                    <form class="form-field">
+                        <div class="field-container">
+                            <i class="fa-solid fa-user user"></i>
+                            <input type="text" name="name" placeholder="Name" class="name-field">
+                        </div>
+                        <div class="field-container">
+                            <i class="fa-solid fa-envelope envelope"></i>
+                            <input type="email" placeholder="Email" class="email-field">
+                        </div>
+                        <textarea name="message" id="text-area" rows="5" cols="35" placeholder="Message..." class="message-field"></textarea><br>
+                        <button class="send-button button button1">Send Message</button>
                     </form>
 
                 </div>
             </div>
 
         </section>
+        
 
         
 
