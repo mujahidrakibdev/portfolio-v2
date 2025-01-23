@@ -525,3 +525,66 @@ img {
     margin-top: 1rem;
 
 }
+
+
+/* about */
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 3rem;
+}
+
+.who-am-i{
+    width: 55%;
+    background-color: #021526;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 2.5em;
+    font-family: "Open Sans", sans-serif;
+}
+.about-me{
+    color: rgb(136, 146, 176);
+}
+
+.personal-info{
+    background-color: #021526;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding:2.5em;
+    font-family: "Open Sans", sans-serif;
+    width: 35%;
+    
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1rem;
+    color: rgb(136, 146, 176);
+}
+.info-container p{
+    margin: 1.5rem 0;
+}
+
+.who-am-i-text,
+.personal-info-text{
+    margin-bottom: 1.25rem;
+    color: rgba(46,157,255,1);
+    font-size: 2rem;
+}
+
+.bold{
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.skype-link{
+    text-decoration: none;
+    color: #fff;
+}
+
