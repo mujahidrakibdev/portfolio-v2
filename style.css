@@ -588,3 +588,25 @@ img {
     color: #fff;
 }
 
+
+
+/* footer */
+.footer{
+    transition: all .5s ease-in-out;
+    border-top: 1px solid #fff;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+
+}
+.bottom-name{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 1.8em;
+    font-weight: 400;  
+}
+.love{
+    color: red;
+}

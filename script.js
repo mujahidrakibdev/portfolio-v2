@@ -4,13 +4,16 @@ document.getElementById("side-toggle").addEventListener("click", function (e) {
 
     let element1 = document.getElementById("header");
     let element2 = document.getElementById("main");
+    let element3 = document.getElementById("footer");
 
-    if (element1.classList.contains("big-margin") && element2.classList.contains("big-margin")) {
+    if (element1.classList.contains("big-margin") && element2.classList.contains("big-margin") && element3.classList.contains("big-margin")) {
         element1.classList.replace("big-margin", "small-margin");
         element2.classList.replace("big-margin", "small-margin");
+        element3.classList.replace("big-margin", "small-margin");
     } else {
         element1.classList.add("big-margin");
         element2.classList.add("big-margin");
+        element3.classList.add("big-margin");
 }
 
 
