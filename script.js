@@ -25,3 +25,8 @@ document.getElementById("nav-toggle").addEventListener("click", function (e) {
 })
 
 
+import { showProjectsContainer } from "./homeProjectsCards.js";
+// importing projects
+import { projects } from "./projects.js";
+ 
+showProjectsContainer(projects)
