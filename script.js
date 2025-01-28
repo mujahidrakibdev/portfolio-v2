@@ -1,5 +1,15 @@
+const sidebar = document.getElementById("sidebar")
+const toggleIcon = document.querySelector(".sidebar-icon")
+
 document.getElementById("side-toggle").addEventListener("click", function (e) {
-    e.target.parentElement.classList.toggle("side-active")
+    sidebar.classList.toggle("side-active")
+    if (toggleIcon.classList.contains("fa-caret-left")) {
+        toggleIcon.classList.replace("fa-caret-left", "fa-caret-right")
+    } else if (toggleIcon.classList.contains("fa-caret-right")) {
+        toggleIcon.classList.replace("fa-caret-right", "fa-caret-left")
+    }
+    
+
 
 
     let element1 = document.getElementById("header");
@@ -13,12 +23,11 @@ document.getElementById("side-toggle").addEventListener("click", function (e) {
     } else {
         element1.classList.add("big-margin");
         element2.classList.add("big-margin");
-        element3.classList.add("big-margin");
-}
-
-
-
+        element3.classList.add("big-margin");  
+    }
 })
+
+
 document.getElementById("nav-toggle").addEventListener("click", function (e) {
     document.getElementById("nav-container").classList.toggle("is-open")
     
