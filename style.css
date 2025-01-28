@@ -377,8 +377,9 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding:1em;
 }
-.project img{
-    border-radius: 15px;
+.project-img{
+    border-radius: 15px; 
+    aspect-ratio: 16 / 9;
 }
 .project-title{
     padding: .35em;
