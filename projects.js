@@ -20,7 +20,7 @@ export const projects = [
         "image": "images/weather-app.png",
         "title": "Weather App",
         "description": "A fully functional Weather App with function to get any city, country or location's live weather data with country flag.",
-        "live_preview": "https://your-live-preview-link.com/weather-app",
+        "live_preview": "https://mujahidrakibdev.github.io/weather-app",
         "source_code": "https://github.com/yourusername/weather-app"
     },
     {
