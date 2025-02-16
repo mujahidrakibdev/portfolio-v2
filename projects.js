@@ -9,6 +9,14 @@ export const projects = [
     },
     {
         "id": 2,
+        "image": "images/expense tracker app.png",
+        "title": "Expense Tracker App",
+        "description": "A Simple Expense Tracker with the functions of adding Transactions like income and expense. saved to local storage and shown all the history with main balance, total income and total expense.",
+        "live_preview": "https://mujahidrakibdev.github.io/qr-code-generator/",
+        "source_code": "https://github.com/mujahidrakibdev/qr-code-generator"
+    },
+    {
+        "id": 3,
         "image": "images/qr-code.png",
         "title": "QR Code Generator",
         "description": "A Simple QR Code Generator with the functions of adding image/logo. Customizing the QR code's dot, corner, corner dots color shape height width and much more.",
@@ -16,7 +24,7 @@ export const projects = [
         "source_code": "https://github.com/mujahidrakibdev/qr-code-generator"
     },
     {
-        "id": 3,
+        "id": 4,
         "image": "images/weather-app.png",
         "title": "Weather App",
         "description": "A fully functional Weather App with function to get any city, country or location's live weather data with country flag.",
@@ -24,7 +32,7 @@ export const projects = [
         "source_code": "https://github.com/mujahidrakibdev/weather-app"
     },
     {
-        "id": 4,
+        "id": 5,
         "image": "images/todo-app.png",
         "title": "ToDo App",
         "description": "A Simple ToDo app with the functions of adding todos, removing them and marking as completed. The data is stored in the local server.",
@@ -32,7 +40,7 @@ export const projects = [
         "source_code": "https://github.com/mujahidrakibdev/todo-app"
     },
     {
-        "id": 5,
+        "id": 6,
         "image": "images/calculator-app.png",
         "title": "Calculator App",
         "description": "A fully functional Calculator App with the function to calculate anything by clicking the on-screen buttons and also by computer keyboard buttons.",
@@ -40,7 +48,7 @@ export const projects = [
         "source_code": "https://github.com/mujahidrakibdev/calculator-app"
     },
     {
-        "id": 6,
+        "id": 7,
         "image": "images/e-commerce.jpg",
         "title": "E-Commerce Website",
         "description": "A fully functional e-commerce platform with shopping cart, product filtering, and payment gateway integration.",
@@ -48,7 +56,7 @@ export const projects = [
         "source_code": "https://github.com/yourusername/e-commerce"
     },
     {
-        "id": 7,
+        "id": 8,
         "image": "images/real-estate.jpg",
         "title": "Real Estate Website",
         "description": "A real estate website with property listings, search functionality, and an interactive map for finding nearby properties.",
@@ -56,7 +64,7 @@ export const projects = [
         "source_code": "https://github.com/yourusername/real-estate"
     },
     {
-        "id": 8,
+        "id": 9,
         "image": "images/restaurant.webp",
         "title": "Restaurant Landing Page",
         "description": "A clean and visually appealing landing page for a restaurant, featuring a menu, online reservations, and location information.",
@@ -64,7 +72,7 @@ export const projects = [
         "source_code": "https://github.com/yourusername/restaurant"
     },
     {
-        "id": 9,
+        "id": 10,
         "image": "images/saas.png",
         "title": "SaaS Product Website",
         "description": "A marketing website for a SaaS product, including features overview, customer testimonials, and a pricing section.",
@@ -72,7 +80,7 @@ export const projects = [
         "source_code": "https://github.com/yourusername/saas"
     },
     {
-        "id": 10,
+        "id": 11,
         "image": "images/education.jpg",
         "title": "Educational Blog",
         "description": "A responsive blog website for educational content with user-friendly navigation, categorized posts, and a commenting system.",
