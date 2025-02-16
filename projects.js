@@ -12,8 +12,8 @@ export const projects = [
         "image": "images/expense tracker app.png",
         "title": "Expense Tracker App",
         "description": "A Simple Expense Tracker with the functions of adding Transactions like income and expense. saved to local storage and shown all the history with main balance, total income and total expense.",
-        "live_preview": "https://mujahidrakibdev.github.io/qr-code-generator/",
-        "source_code": "https://github.com/mujahidrakibdev/qr-code-generator"
+        "live_preview": "https://mujahidrakibdev.github.io/expense-tracker/",
+        "source_code": "https://github.com/mujahidrakibdev/expense-tracker"
     },
     {
         "id": 3,
