@@ -16,12 +16,6 @@ export const showProjectsContainer = (projects) => {
         projectClone.querySelector(".live-preview").href = live_preview
         projectClone.querySelector(".source-code").href = source_code
 
-        
-        
-
-
         projectContainer.append(projectClone)
     });
-
-
 }
